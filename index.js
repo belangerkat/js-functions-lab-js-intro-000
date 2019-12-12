@@ -4,22 +4,13 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name) {
-  console.log(`Happy holidays, ${name}!`)
+  return `Happy holidays, ${name}!`
 }
-
-happyHolidaysTo('you')
-happyHolidaysTo('everyone')
 
 function happyHolidayTo(holiday, name) {
-  console.log(`Happy ${holiday}, ${name}!`)
+  return `Happy ${holiday}, ${name}!`
 }
 
-happyHolidayTo("Independence Day", "you")
-happyHolidayTo("New Year", "everyone")
-
-function holidayCountdown(days, holiday) {
-  console.log(`It\'s ${days} days until ${holiday}!`)
+function holidayCountdown(holiday, days) {
+  return `It\'s ${days} days until ${holiday}!`
 }
-
-holidayCountdown(20, "Mother\'s Day")
-holidayCountdown(120, "Father\'s Day")
