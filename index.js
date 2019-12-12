@@ -22,3 +22,4 @@ function holidayCountdown(days, holiday) {
 }
 
 holidayCountdown(20, "Mother\'s Day")
+holidayCountdown(120, "Father\'s Day")
