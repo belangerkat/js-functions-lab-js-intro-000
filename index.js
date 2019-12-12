@@ -8,12 +8,14 @@ function happyHolidaysTo(name) {
 }
 
 happyHolidaysTo('you')
+happyHolidaysTo('everyone')
 
 function happyHolidayTo(holiday, name) {
   console.log(`Happy ${holiday}, ${name}!`)
 }
 
 happyHolidayTo("Independence Day", "you")
+happyHolidayTo("New Year", "everyone")
 
 function holidayCountdown(days, holiday) {
   console.log(`It\'s ${days} days until ${holiday}!`)
